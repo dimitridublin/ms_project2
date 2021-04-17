@@ -6,9 +6,9 @@
     <!--Bootstrap responsive viewport meta tag, copied from https://getbootstrap.com/docs/4.3/getting-started/introduction/-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Booterstown Travel, European city break specialist travel agency in Dublin, Ireland">
+        content="Booterstown Travel, European city breaks specialist travel agency in Dublin, Ireland">
     <meta name="keywords"
-        content="city, city break, holidays, Europe, explore, travel, sightseeing, restaurants, attractions">
+        content="city, city breaks, holidays, Europe, explore, travel, sightseeing, restaurants, attractions, urban">
     <meta name="author" content="Dimitrios Paraskevas">
     <title>Home - Booterstown Travel</title>
     <!--Importing Bootstrap CSS stylesheet, code copied from https://getbootstrap.com/docs/4.3/getting-started/introduction/-->
@@ -22,7 +22,35 @@
 
 <body>
     <header>
-        <h1>AEK</h1>
+        <nav class="navbar navbar-expand-lg navbar-text">
+            <!-- ΒΤT "company" logo was created using favicon.io-->
+            <a class="navbar-brand hvr-grow" href="index.html">
+                <img src="assets/images/btt_logo.png" alt="booterstown travel logo" class="d-inline-block align-top"
+                    width="80px" height="40px">Booterstown Travel - The European City Breaks Specialists
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="navbar toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active hvr-grow" href="#">Cities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-grow" href="#">Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-grow" href="#">About BTT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="container-fluid">
+            <h1 class="text-uppercase"> Explore the best of Europe</h1>
+            <h2>with Booterstown Travel City Breaks!</h2>
+        </section>
     </header>
     <!--Importing Bootstrap required JS scripts, code copied from https://getbootstrap.com/docs/4.3/getting-started/introduction/-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
