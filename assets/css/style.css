@@ -11,12 +11,22 @@ body {
     overflow-x: hidden;
 }
 
-.callout-section {
+/* callout container styling */
+.callout-container {
     height: 100vh;
-    /* Homepage hero image by Vali Sachadonig on Unsplash */
+    /* homepage hero image by Vali Sachadonig on Unsplash */
     background-image: url("../images/main_hero_image_unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
 }
