@@ -10,3 +10,13 @@ body {
     font-family: "Lato", "Verdana", sans-serif;
     overflow-x: hidden;
 }
+
+.callout-section {
+    height: 100vh;
+    /* Homepage hero image by Vali Sachadonig on Unsplash */
+    background-image: url("../images/main_hero_image_unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
