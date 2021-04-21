@@ -31,3 +31,24 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
 }
+
+/* -------------------------------------------------------------------------------------footer styling */
+footer {
+    background-color: #525252;
+}
+
+footer div {
+    color: #fff;
+    padding: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* social media icons styling */
+.social-media i {
+    font-size: xx-large;
+    color: #fff;
+    padding: 10px;
+}
