@@ -7,8 +7,13 @@
 
 /* body styling, Roboto font to be used for navigation and headings, Lato font to be used for paragraph text */
 body {
-    font-family: "Lato", "Verdana", sans-serif;
+    font-family: "Roboto", "Verdana", sans-serif;
     overflow-x: hidden;
+}
+
+/* -------------------------------------------------------------------------------------navigation styling */
+.navbar-nav {
+    padding-left: 0;
 }
 
 /* -------------------------------------------------------------------------------------homepage styling */
