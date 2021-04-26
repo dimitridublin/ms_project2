@@ -15,8 +15,8 @@ body {
 /* callout container styling */
 .callout-container {
     height: 100vh;
-    /* homepage hero image by Vali Sachadonig on Unsplash */
-    background-image: url("../images/main_hero_image_unsplash.jpg");
+    /* homepage hero image by alevision.co on Unsplash */
+    background-image: url("../images/home_img_mad_unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,10 +33,22 @@ body {
 
 /* -------------------------------------------------------------------------------------cities page styling */
 .athens-container {
-    clear: both;
-    width: 90vw;
-    height: 40vh;
-    background-image: url("../images/athens/acropolis_aerial_view_unsplash.jpg");
+    height: 100vh;
+    /* image by Tania Mousinho on Unsplash */
+    background-image: url("../images/athens/acropolis_close_unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lisbon-container {
+    height: 100vh;
+    /* image by Vali Sachadonig on Unsplash */
+    background-image: url("../images/lisbon/lisbon_tram_unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -47,10 +59,9 @@ body {
 }
 
 .rome-container {
-    clear: both;
-    width: 90vw;
-    height: 40vh;
-    background-image: url("../images/rome/rome_street_unsplash.jpg");
+    height: 100vh;
+    /* image by David Billings on Unsplash  */
+    background-image: url("../images/rome/colloseum_unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -75,8 +86,8 @@ h4 {
     text-align: center;
 }
 
-/* social media icons styling */
-footer div i {
+/* social media icons and other font awesome icons styling */
+i {
     font-size: xx-large;
     color: #fff;
     padding: 10px;
