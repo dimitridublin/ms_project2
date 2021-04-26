@@ -11,11 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-/* -------------------------------------------------------------------------------------navigation styling */
-.navbar-nav {
-    padding-left: 0;
-}
-
 /* -------------------------------------------------------------------------------------homepage styling */
 /* callout container styling */
 .callout-container {
@@ -29,7 +24,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
 .jumbotron {
@@ -37,8 +31,38 @@ body {
     color: #fff;
 }
 
+/* -------------------------------------------------------------------------------------cities page styling */
+.athens-container {
+    clear: both;
+    width: 90vw;
+    height: 40vh;
+    background-image: url("../images/athens/acropolis_aerial_view_unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rome-container {
+    clear: both;
+    width: 90vw;
+    height: 40vh;
+    background-image: url("../images/rome/rome_street_unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* -------------------------------------------------------------------------------------footer styling */
 footer {
+    clear: both;
     background-color: #525252;
 }
 
