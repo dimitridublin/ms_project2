@@ -65,10 +65,10 @@
             </div>
         </nav>
         <div class="container-fluid callout-container">
-            <section class="callout jumbotron text-center callout-section mt-5 mb-5" id="book-section">
+            <section class="callout jumbotron text-center callout-section mt-2 mb-2" id="book-section">
                 <div class="container-fluid">
                     <div class="row d-block">
-                        <div class="col-12 alert alert-warning">
+                        <div class="col-12 d-none d-md-block alert alert-warning">
                             <h1 class="text-uppercase">We will not be beaten on price!</h1>
                             <p>The Booterstown Travel Promise:<br>
                                 Find a cheaper brochure listed city break and we will refund double the
@@ -80,11 +80,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- booking form inspired from https://bbbootstrap.com/snippets/bootstrap-bootstrap-booking-template-free-download-snippets-95433518 -->
+                <!-- booking form code adapted from template in https://bbbootstrap.com/snippets/bootstrap-bootstrap-booking-template-free-download-snippets-95433518 -->
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
-                            <h2 class="text-uppercase">Book your city break</h2>
+                            <h2 class="text-uppercase d-none d-md-block">Book your city break</h2>
                         </div>
                     </div>
                     <div class="row">
@@ -93,7 +93,7 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <span class="form-label text-center">Destination</span>
+                                            <span class="form-label">Destination</span>
                                             <div class="select">
                                                 <select id="select" name="select" class="form-control" required>
                                                     <option value="" selected hidden>City</option>
@@ -107,22 +107,69 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <span class="form-label">Check-In</span>
-                                            <input class="form-control text-center" type="date" required> </div>
+                                            <input class="form-control text-center" type="date" required>
+                                        </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <div class="form-group">
-                                                <span class="form-label">Check-Out</span>
-                                                <input class="form-control text-center" type="date" required> </div>
+                                            <span class="form-label">Check-Out</span>
+                                            <input class="form-control text-center" type="date" required>
                                         </div>
-                                        <div class="form-btn">
-                                            <button class="submit-btn btn-lg btn-success mt-3 hvr-grow-shadow">Book Now
-                                            </button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Adults (16+)</span>
+                                            <div class="select">
+                                                <select id="select" name="select" class="form-control" required>
+                                                    <option value="" selected hidden>Select</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                </select>
+                                            </div>
                                         </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Children (0-16)</span>
+                                            <div class="select">
+                                                <select id="select" name="select" class="form-control" required>
+                                                    <option value="" selected hidden>Select</option>
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Number of Rooms</span>
+                                            <div class="select">
+                                                <select id="select" name="select" class="form-control" required>
+                                                    <option value="" selected hidden>Select</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-btn">
+                                    <button class="submit-btn btn-lg btn-success mt-3 hvr-grow-shadow">Book Now
+                                    </button>
+                                </div>
                             </form>
                         </div>
-
                     </div>
+                </div>
             </section>
         </div>
     </header>

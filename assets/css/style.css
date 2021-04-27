@@ -14,7 +14,7 @@ body {
 /* -------------------------------------------------------------------------------------homepage styling */
 /* callout container styling */
 .callout-container {
-    height: 100vh;
+    height: 110vh;
     /* homepage hero image by alevision.co on Unsplash */
     background-image: url("../images/home_img_mad_unsplash.jpg");
     background-repeat: no-repeat;
@@ -71,10 +71,6 @@ body {
     justify-content: center;
 }
 
-/* -------------------------------------------------------------------------------------book page styling */
-#book-section {
-    height: 90vh;
-}
 
 /* -------------------------------------------------------------------------------------footer styling */
 footer {
