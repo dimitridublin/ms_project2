@@ -65,29 +65,66 @@
             </div>
         </nav>
         <div class="container-fluid callout-container">
-            <div class="row">
-                <div class="col-12">
-                    <section class="mt-2 callout jumbotron text-center callout-section">
-                        <div class="container-fluid">
-                            <div class="container-fluid">
-                                <div class="row d-none d-sm-block">
-                                    <div class="col-12">
-                                        <div class="alert alert-warning">
-                                            <h1 class="text-uppercase">We will not be beaten on price!</h1>
-                                            <p>The Booterstown Travel Promise:<br>
-                                                Find a cheaper brochure listed city break and we will refund double the
-                                                difference! *<br><br>
-                                                <small>* Comparable city break package must be for the same city and
-                                                    type of accommodation,
-                                                    and within the same-week travel period</small>
-                                            </p>
+            <section class="callout jumbotron text-center callout-section mt-5 mb-5" id="book-section">
+                <div class="container-fluid">
+                    <div class="row d-block">
+                        <div class="col-12 alert alert-warning">
+                            <h1 class="text-uppercase">We will not be beaten on price!</h1>
+                            <p>The Booterstown Travel Promise:<br>
+                                Find a cheaper brochure listed city break and we will refund double the
+                                difference! *<br><br>
+                                <small>* Comparable city break package must be for the same city and
+                                    type of accommodation,
+                                    and within the same-week travel period</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- booking form inspired from https://bbbootstrap.com/snippets/bootstrap-bootstrap-booking-template-free-download-snippets-95433518 -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-uppercase">Book your city break</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <span class="form-label text-center">Destination</span>
+                                            <div class="select">
+                                                <select id="select" name="select" class="form-control" required>
+                                                    <option value="" selected hidden>City</option>
+                                                    <option>Athens</option>
+                                                    <option>Lisbon</option>
+                                                    <option>Rome</option>
+                                                </select>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                    </section>
-                </div>
-            </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Check-In</span>
+                                            <input class="form-control text-center" type="date" required> </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                <span class="form-label">Check-Out</span>
+                                                <input class="form-control text-center" type="date" required> </div>
+                                        </div>
+                                        <div class="form-btn">
+                                            <button class="submit-btn btn-lg btn-success mt-3 hvr-grow-shadow">Book Now
+                                            </button>
+                                        </div>
+                            </form>
+                        </div>
+
+                    </div>
+            </section>
+        </div>
     </header>
     <footer class="container-fluid">
         <div class="row">
