@@ -71,9 +71,16 @@ body {
     justify-content: center;
 }
 
-/* -------------------------------------------------------------------------------------abouts page styling */
-#about-container {
-    height: 60vh;
+/* -------------------------------------------------------------------------------------book page styling */
+#book-paragraph {
+    font-family: "Lato", "Verdana", sans-serif;
+}
+
+/* -------------------------------------------------------------------------------------about page styling */
+#about-paragraph {
+    width: 80vw;
+    font-family: "Lato", "Verdana", sans-serif;
+    text-align: left;
 }
 
 /* -------------------------------------------------------------------------------------footer styling */

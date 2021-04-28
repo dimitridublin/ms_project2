@@ -65,36 +65,80 @@
             </div>
         </nav>
         <div class="container-fluid callout-container" id="about-container">
-            <section class="mt-2 callout jumbotron text-center">
-                <h1 class="text-uppercase jumbotron-header"> Explore the best of Europe</h1>
-                <h2>with Booterstown Travel City Breaks!</h2>
-                <a href="cities.html">
-                    <button class="btn btn-lg btn-success mt-5 hvr-grow-shadow">Choose a
-                        City!
-                    </button>
-                </a>
+            <section class="callout jumbotron text-center callout-section mt-2 mb-2">
+                <div class="container-fluid">
+                    <div class="row d-block">
+                        <div class="col-12 d-none d-md-block alert alert-warning">
+                            <h1 class="text-uppercase">About Booterstown Travel</h1>
+                            <p id="about-paragraph">Following years of travel and endless stories to recount, Anna and
+                                Dimitri thought
+                                that other people would want to experience the wonderful cities of Europe like a
+                                true local. Hence, <strong>Booterstown Travel</strong> was born in 2021, offering
+                                an elegant, safe and truly local way of travel and of experiencing the Continent's
+                                best cities. Whether you are into culture, food or just want to relax and get pampered
+                                in one of our handpicked hotels we offer the very best in "City Break" travel! <br>
+                                Read our reviews on social media, <strong>ask about our price promise</strong>
+                                and either book directly through our website or send us your enquiry filling in the form
+                                below and we will do the rest...<strong>Let's travel!</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- enquiry form code adapted from template in https://bootsnipp.com/snippets/bx65A -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="mt-3">Booterstown Travel Enquiry Form</h3>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="fname" type="text" placeholder="First Name" class="form-control"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="lname" type="text" placeholder="Last Name" class="form-control"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="email" type="email" placeholder="Email" class="form-control"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="phone" type="text" placeholder="Telephone number"
+                                            class="form-control" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="textarea" name="textarea" rows="4"
+                                            placeholder="Your enquiry" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button type="submit" name="singlebutton" class="btn btn-success">Send
+                                        Enquiry</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </section>
         </div>
     </header>
-    <section class="homepage">
-        <h2>About Booterstown Travel</h2>
-        <p><strong>Booterstown Travel</strong> was established with a simple philosophy: to offer the local community
-            an elegant, safe
-            and non-judgemental space for all its fitness needs. Whether you are into weights, cardio classes, swimming,
-            sauna or spin we are here to help you achieve your goals! Our instructors, personally handpicked by the
-            owners Anna and Dimitri, fully-encompass BTF's values and have been trained to the highest and most
-            up-to-date
-            fitness trends and standards. We are looking forward to welcoming you from 7am to 10pm every day of the week
-            (Monday to Sunday).
-        </p>
-        <h2>Facilities</h2>
-        <p><strong>Booterstown Fitness</strong> offers a fully equipped 250m<sup>2</sup> gym, two spacious Pilates and
-            Yoga rooms,
-            a 25m swimming pool, a splash pool used for aqua aerobics and a state-of-the-art sauna and steam room. In
-            addition, there is secure and free parking
-            right on the premises! <strong>Click on an image below for more photos</strong>.
-        </p>
-    </section>
     <footer class="container-fluid">
         <div class="row">
             <div class="col-md-4 text-center">
@@ -148,50 +192,3 @@
 </body>
 
 </html>
-
-<!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt30">
-                                        <h4 class="tour-form-title">Your Travel Plan Detail</h4>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                        <div class="form-group">
-                                            <label class="control-label" for="name">Name</label>
-                                            <input id="name" type="text" placeholder="First Name" class="form-control"
-                                                required>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                        <div class="form-group">
-                                            <label class="control-label" for="email"> Email</label>
-                                            <input id="email" type="text" placeholder="xxxx@xxxx.xxx"
-                                                class="form-control" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                                        <div class="form-group">
-                                            <label class="control-label" for="phone"> Phone</label>
-                                            <input id="phone" type="text" placeholder="(222) 222-2222"
-                                                class="form-control" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                                        <div class="form-group">
-                                            <label class="control-label" for="country">Country</label>
-                                            <input id="country" type="text" placeholder="India" class="form-control"
-                                                required>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
-                                        <div class="form-group">
-                                            <label class="control-label" for="city">City</label>
-                                            <input id="city" type="text" placeholder="Ahmedabad" class="form-control"
-                                                required>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div class="form-group">
-                                            <label class="control-label" for="textarea">Describe Your Travel
-                                                Requirements</label>
-                                            <textarea class="form-control" id="textarea" name="textarea" rows="4"
-                                                placeholder="Write Your Requirements"></textarea>
-                                        </div>
-                                    </div>-->
