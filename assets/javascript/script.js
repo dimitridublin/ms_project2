@@ -1,5 +1,19 @@
+// allow page content to load before user can select city of preference 
 document.addEventListener("DOMContentLoaded", function () {
+            let exploreButtons = document.getElementsByClassName("explore-button");
 
+            for (let exploreButton of exploreButtons) {
+                button.addEventListener("click", function () {
+                    if (this === exploreButton[0]) {
+                        athens
+                    }
+                    if (this === exploreButton[1]) {
+                        lisbon
+                    } else {
+                        rome
+                    }
+                });
+            }
         };
 
 
