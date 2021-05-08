@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
             for (let exploreButton of exploreButtons) {
                 button.addEventListener("click", function () {
                     if (this === exploreButton[0]) {
-                        athens
+                        let
                     }
                     if (this === exploreButton[1]) {
                         lisbon
