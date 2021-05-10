@@ -1,4 +1,4 @@
-// allow page content to load before user can select city of preference 
+/*// allow page content to load before user can select city of preference 
 $(document).ready(function () {
             $("#explore-button-1").click(function () {
                 function getCityIdFromURL() {
@@ -29,7 +29,7 @@ $(document).ready(function () {
                                 }
                             });
                         }
-                    }; */
+                    }; 
 
 
 
@@ -103,3 +103,5 @@ $(document).ready(function () {
                 });
                 // Set the city info into DOM elements
             }
+
+*/
