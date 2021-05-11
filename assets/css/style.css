@@ -73,12 +73,13 @@ body {
 
 /* -------------------------------------------------------------------------------------individual city page styling */
 #data {
-    height: 50%;
+    height: 50vh;
+    width: 100vw;
 }
 
 #map {
-    height: 50%;
-    width: 50%;
+    height: 50vh;
+    width: 100vw;
 }
 
 
