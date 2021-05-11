@@ -71,7 +71,20 @@ body {
     justify-content: center;
 }
 
-/* -------------------------------------------------------------------------------------individual city page styling */
+/* -------------------------------------------------------------------------------------Athens page styling */
+#athens-main-page {
+    height: 110vh;
+    /* homepage hero image by alevision.co on Unsplash */
+    background-image: url("../images/athens/evzonoi_unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #data {
     height: 50vh;
     width: 100vw;

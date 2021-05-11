@@ -8,8 +8,8 @@ $(document).ready(function () {
                         }
 
                         function showCityInfo() {
-                            let id = getCityIdFromURL();
-                            let cityInfo = citiesMap.find((eachCity) {
+                            const id = getCityIdFromURL();
+                            const cityInfo = citiesMap.find((eachCity) {
                                     eachCity.id === id;
                                 }
                             });
@@ -105,14 +105,7 @@ $(document).ready(function () {
                             {
                                 id: 3,
                                 name: "Rome",
-                                description: "Rome is the capital city and a special comune of Italy, as well as the capital of the Lazio 
-                                region.The city has been a major human settlement
-                                for almost three millennia.With 2,
-                                860,
-                                009 residents in
-                                1,
-                                285 km²,
-                                it is also the country 's most populated comune.",
+                                description: "Rome is the capital city and a special comune of Italy, as well as the capital of the Lazio region.The city has been a major human settlement for almost three millennia. With 2,860,009 residents in 1,285 km², it is also the country's most populated comune.",
                                 sights: [{
                                         lat: 41.89120402432327,
                                         lng: 12.493416198459283 //Colloseum
@@ -166,24 +159,34 @@ $(document).ready(function () {
 
                         function showCityInfo() {
                             let id = getCityIdFromURL();
-                            let cityInfo = citiesMap.find((eachCity) => {
+                            let cityInfo = citiesMap.find((eachCity) {
                                 eachCity.id === id;
                             });
                             // Set the city info into DOM elements
-                        }
+                            $("#city-header") {
+                                this.innerHTML === $("name");
+                            }
+                            $("city-paragraph") {
+                                this.innerHTML === $("description");
+                            }
+                            $(".carousel-inner>img") {
 
-                        /* 
-                                    let exploreButtons = document.getElementsByClassName("explore-button");
-                                    for (let exploreButton of exploreButtons) {
-                                        button.addEventListener("click", function () {
-                                            if (this === exploreButton[0]) {
-                                                let
-                                            }
-                                            if (this === exploreButton[1]) {
-                                                lisbon
-                                            } else {
-                                                rome
-                                            }
-                                        });
-                                    }
-                                }; */
+
+                            }
+                        }
+                    }
+                    /* 
+                                let exploreButtons = document.getElementsByClassName("explore-button");
+                                for (let exploreButton of exploreButtons) {
+                                    button.addEventListener("click", function () {
+                                        if (this === exploreButton[0]) {
+                                            let
+                                        }
+                                        if (this === exploreButton[1]) {
+                                            lisbon
+                                        } else {
+                                            rome
+                                        }
+                                    });
+                                }
+                            }; */
