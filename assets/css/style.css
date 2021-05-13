@@ -97,7 +97,7 @@ body {
 
 
 /* -------------------------------------------------------------------------------------book page styling */
-#book-paragraph {
+.book-paragraph {
     font-family: "Lato", "Verdana", sans-serif;
 }
 
