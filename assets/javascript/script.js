@@ -1,4 +1,4 @@
-// allow page content to load before user can select city of preference 
+// Allow page content to load before user can select city of preference 
 $(document).ready(function () {
             $("#explore-button").click(function () {
                         function getCityIdFromURL() {
@@ -9,9 +9,9 @@ $(document).ready(function () {
 
                         function showCityInfo() {
                             const id = getCityIdFromURL();
-                            const cityInfo = citiesMap.find((eachCity) {
+                            const cityInfo = citiesMap.find((eachCity) => {
                                     eachCity.id === id;
-                                }
+                                },
                             });
 
                         let citiesMap = [{
@@ -159,7 +159,7 @@ $(document).ready(function () {
 
                         function showCityInfo() {
                             let id = getCityIdFromURL();
-                            let cityInfo = citiesMap.find((eachCity) {
+                            let cityInfo = citiesMap.find((eachCity) => {
                                 eachCity.id === id;
                             });
                             // Set the city info into DOM elements
