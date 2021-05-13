@@ -54,9 +54,11 @@ Automation of tests was not possible on this project. Manual testing confirmed c
 * 
 
 #### Deployment
-* Logged into my github account and from the [project page](https://github.com/dimitridublin/ms_project2) I clicked on settings and scrolled down to "GitHub Pages"
-* Under "Source" I changed the default "none" to "master" so that my site's deployed code feeds from the my project's master branch 
-* I saved the above change and my site was published at https://dimitridublin.github.io/ms_project2/
+* Logged into my github account and in the [project repository page](https://github.com/dimitridublin/ms_project2), clicked on "settings" (under the repository name) and scrolled down to "GitHub Pages"
+* On the "GitHub Pages" section there was a message saying "Pages settings now has its own dedicated tab! Check it out here!". I clicked on it as required and navigated to GitHub's new dedicated pages settings tab
+* On the pages settings tab and under "Source" I changed the default "none" to "master" so that my site's deployed code feeds from the my project's master branch 
+* I clicked on the "Save" button and a message appeared saying "Your site is ready to be published" along with the respective link
+* My site was published at https://dimitridublin.github.io/ms_project2/
 
 #### Credits
 ##### Content
