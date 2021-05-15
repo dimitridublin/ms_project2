@@ -15,6 +15,7 @@ body {
 /* callout container styling */
 .callout-container {
     height: 100%;
+    min-height: 70vh;
     /* homepage hero image by alevision.co on Unsplash */
     background-image: url("../images/home_img_mad_unsplash.jpg");
     background-repeat: no-repeat;
@@ -38,6 +39,7 @@ body {
 /* -------------------------------------------------------------------------------------cities page styling */
 .athens-container {
     height: 100%;
+    min-height: 70vh;
     /* image by Tania Mousinho on Unsplash */
     background-image: url("../images/athens/acropolis_close_unsplash.jpg");
     background-repeat: no-repeat;
@@ -51,6 +53,7 @@ body {
 
 .lisbon-container {
     height: 100%;
+    min-height: 70vh;
     /* image by Vali Sachadonig on Unsplash */
     background-image: url("../images/lisbon/lisbon_tram_unsplash.jpg");
     background-repeat: no-repeat;
@@ -64,6 +67,7 @@ body {
 
 .rome-container {
     height: 100%;
+    min-height: 70vh;
     /* image by David Billings on Unsplash  */
     background-image: url("../images/rome/colloseum_unsplash.jpg");
     background-repeat: no-repeat;
