@@ -1,4 +1,4 @@
-// Allow page content to load before user can select city of preference
+// Cities' info
 let citiesMap = [{
         id: 1,
         name: "Athens",

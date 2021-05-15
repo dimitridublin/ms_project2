@@ -25,6 +25,13 @@
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
     <!--adding BTT logo on browser tab-->
     <link rel="icon" href="./assets/images/btt_logo.png">
+    <!--Email JS script from: hhttps://dashboard.emailjs.com/admin/integration/browser-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_ju6XNhfQ2GvTtTiZnwhiT");
+        })();
+    </script>
 </head>
 
 <body>
@@ -92,7 +99,7 @@
                                 <h3 class="mt-3">Booterstown Travel Enquiry Form</h3>
                             </div>
                         </div>
-                        <form>
+                        <form onsubmit="return respondMail(this);">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -189,7 +196,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script src="./assets/javascript/script.js"></script>
+    <!-- adding own script re response to form submission using Email JS-->
+    <script src="assets/javascript/aboutForm.js"></script>
 
 </body>
 
