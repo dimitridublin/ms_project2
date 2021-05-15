@@ -14,7 +14,7 @@ body {
 /* -------------------------------------------------------------------------------------homepage styling */
 /* callout container styling */
 .callout-container {
-    height: 110vh;
+    height: 100%;
     /* homepage hero image by alevision.co on Unsplash */
     background-image: url("../images/home_img_mad_unsplash.jpg");
     background-repeat: no-repeat;
@@ -29,11 +29,15 @@ body {
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
+    max-height: 95%;
+    max-width: 99%;
+    min-width: 60%;
+
 }
 
 /* -------------------------------------------------------------------------------------cities page styling */
 .athens-container {
-    height: 100vh;
+    height: 100%;
     /* image by Tania Mousinho on Unsplash */
     background-image: url("../images/athens/acropolis_close_unsplash.jpg");
     background-repeat: no-repeat;
@@ -46,7 +50,7 @@ body {
 }
 
 .lisbon-container {
-    height: 100vh;
+    height: 100%;
     /* image by Vali Sachadonig on Unsplash */
     background-image: url("../images/lisbon/lisbon_tram_unsplash.jpg");
     background-repeat: no-repeat;
@@ -59,7 +63,7 @@ body {
 }
 
 .rome-container {
-    height: 100vh;
+    height: 100%;
     /* image by David Billings on Unsplash  */
     background-image: url("../images/rome/colloseum_unsplash.jpg");
     background-repeat: no-repeat;
@@ -103,7 +107,6 @@ body {
 
 /* -------------------------------------------------------------------------------------about page styling */
 #about-paragraph {
-    width: 80vw;
     font-family: "Lato", "Verdana", sans-serif;
     text-align: left;
 }
