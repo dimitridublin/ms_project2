@@ -33,7 +33,6 @@ body {
     max-height: 95%;
     max-width: 99%;
     min-width: 60%;
-
 }
 
 /* -------------------------------------------------------------------------------------cities page styling */
@@ -81,7 +80,8 @@ body {
 
 /* -------------------------------------------------------------------------------------Athens page styling */
 #athens-main-page {
-    height: 110vh;
+    height: 100%;
+    min-height: 90vh;
     /* homepage hero image by alevision.co on Unsplash */
     background-image: url("../images/athens/evzonoi_unsplash.jpg");
     background-repeat: no-repeat;
@@ -93,6 +93,15 @@ body {
     justify-content: center;
 }
 
+h3 {
+    text-align: center;
+}
+
+p {
+    font-family: "Lato", "Verdana", sans-serif;
+}
+
+
 #data {
     height: 50vh;
     width: 100vw;
@@ -103,15 +112,8 @@ body {
     width: 100vw;
 }
 
-
-/* -------------------------------------------------------------------------------------book page styling */
-.book-paragraph {
-    font-family: "Lato", "Verdana", sans-serif;
-}
-
 /* -------------------------------------------------------------------------------------about page styling */
 #about-paragraph {
-    font-family: "Lato", "Verdana", sans-serif;
     text-align: left;
 }
 
