@@ -11,6 +11,14 @@ body {
     overflow-x: hidden;
 }
 
+h3 {
+    text-align: center;
+}
+
+p {
+    font-family: "Lato", "Verdana", sans-serif;
+}
+
 /* -------------------------------------------------------------------------------------homepage styling */
 /* callout container styling */
 .callout-container {
@@ -92,15 +100,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-h3 {
-    text-align: center;
-}
-
-p {
-    font-family: "Lato", "Verdana", sans-serif;
-}
-
 
 #data {
     height: 50vh;
