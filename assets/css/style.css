@@ -90,8 +90,8 @@ p {
 #athens-main-page {
     height: 100%;
     min-height: 90vh;
-    /* homepage hero image by alevision.co on Unsplash */
-    background-image: url("../images/athens/evzonoi_unsplash.jpg");
+    /* Photo by Athens at a Glance on Unsplash */
+    background-image: url("../images/athens/zeus_temple.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -100,6 +100,19 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.city-image {
+    clear: both;
+    line-height: 0px;
+    padding: 0px;
+    height: 300px;
+}
+
+.city-image img {
+    width: 100%;
+    height: 100%;
+}
+
 
 #data {
     height: 50vh;
