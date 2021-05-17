@@ -146,6 +146,8 @@ function showCityInfo() {
     });
 }
 
+showCityInfo();
+
 // Set the city info into DOM elements
 $("#city-header").html(` <h1 class="text-uppercase">${citiesMap.name}</h1>
                         <p class="book-paragraph">${citiesMap.description}</p>`);
