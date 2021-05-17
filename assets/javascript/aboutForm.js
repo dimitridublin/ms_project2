@@ -2,7 +2,7 @@
 function formSubmitted() {
     buttonSubmitted = document.getElementById("submit");
     buttonSubmitted.style.backgroundColor = "red";
-    buttonSubmitted.textContent = "Enquiry Form Submitted";
+    buttonSubmitted.textContent = "Enquiry form submitted, an email has been sent to the address provided";
 };
 
 // about page enquiry form submission script, code adapted from example provided in CI "Sending Emails Using EmailJS" tutorial
