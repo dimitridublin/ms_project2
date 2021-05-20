@@ -126,6 +126,21 @@ p {
     width: 100vw;
 }
 
+/* -------------------------------------------------------------------------------------Lisbon page styling */
+#lisbon-main-page {
+    height: 100%;
+    min-height: 90vh;
+    /* Photo by Diego García on Unsplash */
+    background-image: url("../images/lisbon/lisbon_doors.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* -------------------------------------------------------------------------------------about page styling */
 #about-paragraph {
     text-align: left;

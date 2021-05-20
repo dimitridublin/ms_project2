@@ -2,6 +2,7 @@
 let citiesMap = [{
         id: 1,
         name: "Athens",
+        //city description from google.com
         description: "Athens is the capital of Greece. It was also at the heart of Ancient Greece, a powerful civilization and empire.The city is still dominated by 5 th - century BC landmarks, including the Acropolis, a hilltop citadel topped with ancient buildings like the colonnaded Parthenon temple.The Acropolis Museum, along with the National Archaeological Museum",
         sights: [{
                 lat: 37.972076658931186,
@@ -9,7 +10,7 @@ let citiesMap = [{
             },
             {
                 lat: 37.97573027524435,
-                lng: 23.7343027337655 //Syntagma (Parliament) Square
+                lng: 23.7343027337655 //Syntagma (Constitution) Square
             },
             {
                 lat: 37.980715799827244,
@@ -46,6 +47,7 @@ let citiesMap = [{
     {
         id: 2,
         name: "Lisbon",
+        // city description from google.com
         description: "Lisbon is Portugal’s hilly, coastal capital city. From imposing São Jorge Castle, the view encompasses the old city’s pastel-colored buildings, Tagus Estuary and Ponte 25 de Abril suspension bridge. Nearby, the National Azulejo Museum displays 5 centuries of decorative ceramic tiles. Just outside Lisbon is a string of Atlantic beaches",
         sights: [{
                 lat: 38.713039220714585,
