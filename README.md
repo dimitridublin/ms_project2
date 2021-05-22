@@ -7,6 +7,8 @@
 For my second Milestone Project I chose to build an interactive website for an imaginary travel agency, based in Booterstown, Co Dublin (i.e. project idea 1 in the 
 course assessment handbook). 
 
+![image of website on different screen sizes](assets/images/readme-responsive.jpg)
+
 #### User Stories
 As a prospective client I want to find the best city break destination for my needs: read information about different cities that are potential holiday 
 destinations and review city maps with relevant attractions, accommodation and restaurants clearly marked (in order to evaluate suitability of accommodation location on offer in relation to city's sights and restaurants of interest). I would also like to view photos to get an indication of each destination's beauty, major attractions, food choices and accommodation available. Easy to access links of the travel agency's social media pages would also be welcome as they can provide additional info on both the city breaks offered as well as the agency's reputation and previous customer experience through client submitted reviews.
@@ -41,17 +43,20 @@ As the site owner I want to get users to book a city break from this site. For t
 #### Technologies Used
 * HTML
 * CSS
-* JavaScript
 * Bootstrap (v.4.3.1)
-* jQuery (script code obtained through Bootstrap)
-* Popper.js (script code obtained through Bootstrap)
-* [Awesome fonts](https://fontawesome.com/)
-* Hex2rgba was used to [convert hex values to rgba](http://hex2rgba.devoth.com/)
+* JavaScript
+* jQuery v.3.3.1 (slim) (respective script code obtained through Bootstrap)
+* Popper.js v.1.14.7 (script code obtained through Bootstrap)
+* [Hover CSS](https://ianlunn.github.io/Hover/) to create the hovering over effects on navigation menu and social media icons
+* [Awesome fonts v5.14.0](https://fontawesome.com/)
+* [Google fonts](https://fonts.google.com/)
+* [Logo Maker](https://logomakr.com/) was used to create the Booterstown Travel "company" logo
+* [Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/index.php) was used to create the image of website on different screen sizes above
 * [Material Design's colour tool](https://material.io/resources/color/) was used to assess the accesibility of colour combinations used
 * [Github](https://github.com/) and [Gitpod](https://gitpod.io/) were used for website development and version storage
-* [Online HTML validator](https://validator.w3.org/)
-* [Online CSS validator](https://jigsaw.w3.org/css-validator/)
-* [Online JavaScript validator]()
+* [Offical W3C HTML validator](https://validator.w3.org/)
+* [Jigsaw official CSS validator](https://jigsaw.w3.org/css-validator/)
+* [Online JavaScript linter JSHint v.2.12.0](https://jshint.com/)
 * All images were reduced in size (“tinified”) without loss of quality using [tinypng](https://tinypng.com/)
 * Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)
 
