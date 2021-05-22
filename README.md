@@ -51,7 +51,9 @@ As the site owner I want to get users to book a city break from this site. For t
 * [Awesome fonts v5.14.0](https://fontawesome.com/)
 * [Google fonts](https://fonts.google.com/)
 * [Logo Maker](https://logomakr.com/) was used to create the Booterstown Travel "company" logo
-* [Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/index.php) was used to create the image of website on different screen sizes above
+* Google Maps JavaScript API was used to set up the cities' maps
+* [Email JS](https://www.emailjs.com/) was used to set up the emailing of site owner and auto-response functionalities when user submits an enquiry via the website
+* [Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/index.php) was used to create the image of website on different screen sizes on README
 * [Material Design's colour tool](https://material.io/resources/color/) was used to assess the accesibility of colour combinations used
 * [Github](https://github.com/) and [Gitpod](https://gitpod.io/) were used for website development and version storage
 * [Offical W3C HTML validator](https://validator.w3.org/)
@@ -80,14 +82,19 @@ Automation of tests was not possible on this project. Manual testing confirmed c
 
 #### Credits
 ##### Content
-
+* Website design was inspired from https://www.crazyegg.com/blog/example-travel-websites/
+* Enquiry form code adapted from template in https://bootsnipp.com/snippets/bx65A
+* Booking form code adapted from template in https://bbbootstrap.com/snippets/bootstrap-bootstrap-booking-template-free-download-snippets-95433518
+* Maps related JS code adapted from https://developers.google.com/maps/documentation/javascript/marker-clustering#maps_marker_clustering-javascript
 
 ##### Media
 Image credits:
-* All photos taken from Unsplash.com. (please see in-code HTML comments for more details).
+All photos taken from Unsplash.com. The photographs used are credited to alevision.co, Constantinos Kollias, Tania Mousinho, sun Ping chieh, Athens at a Glance, Sophie Dupau, HausPhotoMedia, reisetopia, Loes Klinker, Melissa Walker Horn, Dan Farrell, Vali Sachadonig, Diego García, Mark Lawson, Giulia Angotti, Mathew Schwartz, (please see in-code HTML comments for more details).
 
 ##### Acknowledgments
 I would like to thank my mentor Akshat Garg for his useful tips and comments.
+
+Many thanks to tutoring team for advising on coding issues when things were not working.
 
 I would also like to thank my class peers for their encouragement on the respective Slack channels.
 
