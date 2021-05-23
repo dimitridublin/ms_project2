@@ -114,8 +114,6 @@ Automation of tests was not possible on this project. Manual testing confirmed c
 * Testing of booking form on book page:
   * Tried to submit the form without all fields completed and verified that an error message regarding each missing field appears
   * Tried to submit the form with all inputs valid and verified that form was looking to post the data ("405 Not Allowed" error page appeared as expected as form submission function was not due to be developed during this project)
-* HTML coding was fully validated by the the course prescribed [HTML validator](https://validator.w3.org/)
-* CSS coding was validated without any errors using the course prescribed [CSS validator](https://jigsaw.w3.org/css-validator/)
 * Clicked on each social media icon on each page and they opened correctly in a new tab.
 * Successfully tested responsiveness for different screen sizes: desktop, tablet/iPad, large screen mobile and small screen mobile. Page elements rearrange themselves according to the current browser screen width and site maintains consistency of design and information without any elements overlapping on screen.
 * Navigation menu correctly reduces to hamburger style and company slogan disappears on small screen sizes as expected.
