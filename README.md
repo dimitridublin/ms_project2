@@ -81,21 +81,39 @@ Successfully tested user stories for compliance with their requirements as follo
 * Links of the travel agency's social media pages are easy to access as requested.
 * The price promise, highlighting the excellent value my company offers, features prominently on the book page, and is also mentioned in the about page just above the enquiry form, thus increasing prospects of potential clients continuing on with booking a holiday package directly from my website.
 
-###### Other testing
-Automation of tests was not possible on this project. Manual testing confirmed compliance with user stories and intended function of features as follows:
-* Clicked on company logo on each web page and navigated directly to the homepage as expected
+###### Features testing
+Automation of tests was not possible on this project. Manual testing confirmed compliance with intended function of features as follows:
+* Clicked on company logo on each web page and navigated directly to the homepage as expected.
+* Navigation links worked as expected when clicked on each one moving user directly to the respective web page, including the dedicated pages for each city.
+* Navigation links and all buttons/button type items changed appearance when hovered over as expected.
+* Active navigation links were indicated by their changed appearance on navigation menu as expected.
+* Clicked on the "choose a city" button on the homepage and navigated to the cities page as expected.
+* On the cities page, clicked on each of the different "explore" buttons and navigated correctly to the respective city page.
+* On each city page the map renders with designated markers/marker clusterers and using the specified zoom depth as required.
+* Restriction of Maps Javascript API key to prevent excessive and/or inappropriate use was confirmed under "credentials" on the respective Google cloud page.
+* Enquiry form on about page:
+  * Tried to submit the form without all fields completed and verified that an error message regarding each missing field appears
+  * Tried to submit the form with an invalid email address format and verified that a relevant error message appears
+  * Tried to enter non-numerical characters in the telephone number field and verified that a relevant error message appears
+  * Try to submit the form with all inputs valid and verified that Email JS API works as expected by reducing allowance of free messages on my account accordingly and: 
+   * Correctly sending an email to the company address, including user's details and enquiry message (see screenshot below)
+   * Correctly sending an auto-reply to the user's provided email address with a copy of their enquiry (see screenshot below)
+  * On form submission, a short and clear message on screen appeared as expected informing user that form was submitted and that an email was sent to their address provided (see screenshot below).
+ ![enquiry forwarded to company email](assets/images/enquiry_email.jpg)
+ ![auto reply to user's email](assets/images/enquiry_autoreply.jpg)
+ ![screen grap of about page when enquiry form is submitted](assets/images/enquiry_submission.jpg)
+    
+  * 
+  * 
+  * 
+  * was looking to post the data ("405 Not Allowed" error page appeared as expected as form submission function was not due to be developed during this project)
+   
+
+
 * HTML coding was fully validated by the the course prescribed [HTML validator](https://validator.w3.org/)
 * CSS coding was validated without any errors using the course prescribed [CSS validator](https://jigsaw.w3.org/css-validator/)
 
 
-
-Automation of tests was not possible on this project. Manual testing confirmed compliance with user stories and intended function of features as follows:
-* Clicked on company logo on each web page and navigated directly to the homepage as expected
-* Clicked on the "join now" button on each page and navigated directly to the membership page as expected
-* Navigation links worked as expected when clicked on each web page moving user directly to the respective web page
-* Navigation links and all buttons/button type items changed appearance when hovered over as expected
-* Active navigation links were indicated by their changed appearance as planned
-* Clicked on each of the different photos on homepage and navigated to the gallery page as expected
 * Homepage photos and gallery photos respond to different screen sizes as expected, i.e. rows of four images get progressively reduced to rows of three, two and one image depending on the screen size. At this point, i would like to draw attention to the fact that two different methods were used to achieve this result (i.e. the first by removing from the display the relevant image(s) on the homepage and the second through reducing the number of columns in the gallery page)
 * Query form on contact page:
   * Tried to submit the form without all fields completed and verified that an error message regarding each missing field appears
