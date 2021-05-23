@@ -90,45 +90,34 @@ Automation of tests was not possible on this project. Manual testing confirmed c
 * Clicked on the "choose a city" button on the homepage and navigated to the cities page as expected.
 * On the cities page, clicked on each of the different "explore" buttons and navigated correctly to the respective city page.
 * On each city page the map renders with designated markers/marker clusterers and using the specified zoom depth as required.
-* Restriction of Maps Javascript API key to prevent excessive and/or inappropriate use was confirmed under "credentials" on the respective Google cloud page.
-* Enquiry form on about page:
+* On each city page map clusters correctly disperse once clicked zooming further in and revealing the cluster's individual markers.
+* Restriction of Maps Javascript API key to prevent excessive and/or inappropriate use was confirmed under "credentials" on the respective Google cloud account page.
+* Testing of enquiry form on about page:
   * Tried to submit the form without all fields completed and verified that an error message regarding each missing field appears
   * Tried to submit the form with an invalid email address format and verified that a relevant error message appears
   * Tried to enter non-numerical characters in the telephone number field and verified that a relevant error message appears
-  * Try to submit the form with all inputs valid and verified that Email JS API works as expected by reducing allowance of free messages on my account accordingly and: 
-   * Correctly sending an email to the company address, including user's details and enquiry message (see screenshot below)
-   * Correctly sending an auto-reply to the user's provided email address with a copy of their enquiry (see screenshot below)
+  * Try to submit the form with all inputs valid and verified that Email JS API works as expected by reducing allowance of free messages on my account accordingly and by:
+  * correctly sending an email to the company address, including user's details and enquiry message (see screenshot below)
+  * correctly sending an auto-reply to the user's provided email address with a copy of their enquiry (see screenshot below)
   * On form submission, a short and clear message on screen appeared as expected informing user that form was submitted and that an email was sent to their address provided (see screenshot below).
  ![enquiry forwarded to company email](assets/images/enquiry_email.jpg)
  ![auto reply to user's email](assets/images/enquiry_autoreply.jpg)
  ![screen grap of about page when enquiry form is submitted](assets/images/enquiry_submission.jpg)
-    
-  * 
-  * 
-  * 
-  * was looking to post the data ("405 Not Allowed" error page appeared as expected as form submission function was not due to be developed during this project)
-   
 
-
+* Testing of booking form on book page:
+  * Tried to submit the form without all fields completed and verified that an error message regarding each missing field appears
+  * Tried to submit the form with all inputs valid and verified that form was looking to post the data ("405 Not Allowed" error page appeared as expected as form submission function was not due to be developed during this project)
 * HTML coding was fully validated by the the course prescribed [HTML validator](https://validator.w3.org/)
 * CSS coding was validated without any errors using the course prescribed [CSS validator](https://jigsaw.w3.org/css-validator/)
-
-
-* Homepage photos and gallery photos respond to different screen sizes as expected, i.e. rows of four images get progressively reduced to rows of three, two and one image depending on the screen size. At this point, i would like to draw attention to the fact that two different methods were used to achieve this result (i.e. the first by removing from the display the relevant image(s) on the homepage and the second through reducing the number of columns in the gallery page)
-* Query form on contact page:
-  * Tried to submit the form without all fields completed and verified that an error message regarding each missing field appears
-  * Tried to submit the form with an invalid email address and verified that a relevant error message appears
-  * Try to submit the form with all inputs valid and verified that form was looking to post the data ("405 Not Allowed" error page appeared as expected as form submission function was not due to be developed during this project)
-   * Clicked on "Privacy Policy" and pdf with required info opened in a new tab as expected
-   * Clicked on the "reset form" button and observed all fields clearing up
-* Clicked on each social media icon on each page and they opened correctly in a new tab
-* Successfully tested responsiveness for different screen sizes: desktop, tablet, mobile and small screen mobile (as i am using a laptop with a small screen i was not able to set up responsiveness/check such for extra-large screens). Page elements rearrange themselves according to the current browser screen width and site maintains consistency of design and information without any elements overlapping on screen
-* Page layout largely complied with original wireframe designs for different screen sizes as planned. Wireframes created for desktop, tablet, mobile and small screen mobile (as per site's responsiveness set up). See respective [wireframe images pdf](assets/docs/wireframes.pdf) (20 frames in total covering the four designs).
-* The above tests were carried out on Firefox and Chrome browsers to also verify browser compatibility (used respective dev tools i.e. responsive design mode on Firefox and toggle device toolbar/Lighthouse on Chrome, to check the responsiveness for different screen sizes)
-* Ran the Lighthouse report on Chrome, with the following results: Performance: 95, Accessibility: 98, Best practices: 87, SEO: 96. Details of Lighthouse report confirmed that any issues identified were minor and not significantly affecting overall user experience or website performance
-* Accesibility of colour combinations used was verified using the respective color tool from https://material.io/resources/color/
-* The only HTML code errors when code is being validated correspond to the iframe code copied from Google Maps. As this was directly imported code from Google and iframe element performed as expected these error messages were not addressed and code was not amended. All other elements were successfully validated by the the course prescribed [HTML validator](https://validator.w3.org/)
-* CSS coding was validated without any errors using the course prescribed [CSS validator](https://jigsaw.w3.org/css-validator/)
+* Clicked on each social media icon on each page and they opened correctly in a new tab.
+* Successfully tested responsiveness for different screen sizes: desktop, tablet/iPad, large screen mobile and small screen mobile. Page elements rearrange themselves according to the current browser screen width and site maintains consistency of design and information without any elements overlapping on screen.
+* Navigation menu correctly reduces to hamburger style and company slogan disappears on small screen sizes as expected.
+* Website layout largely complies with original wireframe designs for different screen sizes as planned. Wireframes created for mobile as well as for desktop and tablet/iPad. See respective [wireframe images pdf](assets/docs/msp2_wireframes.pdf) (10 frames in total).
+* The above tests were carried out on Firefox and Chrome browsers to also verify browser compatibility (used respective dev tools i.e. responsive design mode on Firefox and toggle device toolbar/Lighthouse on Chrome, to check the responsiveness for different screen sizes).
+* Ran the Lighthouse report on Chrome, with the following results: Performance: 90, Accessibility: 92, Best practices: 87, SEO: 100. Details of Lighthouse report confirmed that any issues identified were minor and not significantly affecting overall user experience or website performance.
+* HTML code was successfully validated by the the course prescribed [HTML validator](https://validator.w3.org/).
+* CSS coding was validated without any errors using the course prescribed [CSS validator](https://jigsaw.w3.org/css-validator/).
+* JavaScript code passed through [jshint.com](https://jshint.com/) with no major issues.
 
 ##### Interesting bugs or problems worth reporting
 * 
