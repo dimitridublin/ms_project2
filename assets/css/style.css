@@ -45,6 +45,11 @@ p {
     border-radius: 20px;
 }
 
+/* -------------------------------------------------------------------------------------about page styling */
+#about-paragraph {
+    text-align: left;
+}
+
 /* -------------------------------------------------------------------------------------cities page styling */
 .athens-container {
     height: 100%;
@@ -139,11 +144,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-/* -------------------------------------------------------------------------------------about page styling */
-#about-paragraph {
-    text-align: left;
 }
 
 /* -------------------------------------------------------------------------------------footer styling */
