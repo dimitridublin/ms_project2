@@ -11,9 +11,9 @@ course assessment handbook).
 
 #### User Stories
 As a prospective client I want to find the best city break destination for my needs: read information about different cities that are potential holiday 
-destinations and review city maps with relevant attractions, accommodation and restaurants clearly marked (in order to evaluate suitability of accommodation location on offer in relation to city's sights and restaurants of interest). I would also like to view photos to get an indication of each destination's beauty, major attractions, food choices and accommodation available. Easy to access links of the travel agency's social media pages would also be welcome as they can provide additional info on both the city breaks offered as well as the agency's reputation and previous customer experience through client submitted reviews.
+destinations and review city maps with relevant attractions, accommodation and restaurants clearly marked (in order to evaluate suitability of accommodation location on offer in relation to city's sights and restaurants of interest). I would also like to view photos to get an indication of each destination's beauty, major attractions, food choices and accommodation available. Easy to access links of the travel agency's social media pages would also be welcome as they can provide additional info on both the city breaks offered as well as the agency's reputation and previous customer experience through client submitted reviews. Finally, the ability to review available package options depending on users' travel requirements and the ability to select and pay for such through the website would be highly desirable too.
 
-As the site owner I want to get users to book a city break from this site. For this purpose, I want to display information about the different cities my agency offers holiday breaks to, and allow users to get a feeling of the attractions, accommodation and restaurants each destination offers. I also want to have enticing photographs and easy enquiry and booking facilities to provide additional motivation to prospective clients to book a package directly from my website. Easy to access links of the travel agency's social media pages would also be welcome as I want to give users access to client submitted reviews for additional user reassurance. Finally, I want to highlight the excellent value and location suitability of accommodation my city break packages include.
+As the site owner I want to get users to book a city break from this site. For this purpose, I want to display information about the different cities my agency offers holiday breaks to, and allow users to get a feeling of the attractions, accommodation and restaurants each destination offers. I also want to have enticing photographs and easy enquiry and booking facilities to provide additional motivation to prospective clients to book a package directly from my website. Easy to access links of the travel agency's social media pages would also be welcome as I want to give users access to client submitted reviews for additional user reassurance. Finally, I want to highlight the excellent value and location suitability of accommodation my city break packages include, and also be able to maximise benefits of user interaction by collecting their contact details for future use (such as marketing campaigns, mailing circulars, etc.).
 
 #### Features
 ##### Existing Features
@@ -37,7 +37,7 @@ As the site owner I want to get users to book a city break from this site. For t
 
 ##### Features to be Implemented
 * Once user submits travel requirements on the site's book section, website to display holiday options (along with respective price) suitable for them according to city, travel period, size and consistency of travelling party, and type of accommodation required. A "select this package" button next to each suggested option to lead to a secure online payment page.
-* Website to support the "POST" method once user fills all sections of the enquiry form leading to submitted information being automatically stored in an appropriate database. 
+* Website to support the "POST" method once user fills all sections of the enquiry form leading to submitted information being automatically stored in a purpose-built database. 
 * Business could partner with other similar travel agencies in order to increase number and types of holiday packages available for sale, thus maximising potential revenue streams for site owner (as potentially travel agency will also be on a commission for each external holiday package sale achieved through its website).
 
 #### Technologies Used
@@ -63,11 +63,53 @@ As the site owner I want to get users to book a city break from this site. For t
 * Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)
 
 #### Testing
-Successfully tested user stories for compliance with requirements as follows:
-* 
+Successfully tested user stories for compliance with their requirements as follows:
+###### Users
+* Prospective clients can effortlessly find information about the company's city breaks, either through the natural flow of the website ("choose a city" on homepage-> "explore" on cities page-> city of choice) or directly from the navigation menu (cities-> city name).
+* On the respective city page, user can read the relevant information for each destination divided for easy reference into six distinct sections (introduction on top of page, "at a glance" info section, attractions, accommodation, restaurants, interactive map). This structure is maintained for all city pages the company offers holidays to in order to maintain user's positive experience as they browse through the website.
+* A selection of photos is available on each city page and for each category of interest so that user can get an indication of each destination's beauty, major attractions, food choices and accommodation available.
+* Map contains markers for all locations of interest in each city, and uses clustering to avoid a crowded appearance of such which would hinder users from distinguishing individual markers. The markers themselves can be used to evaluate suitability of accommodation location on offer in relation to city's sights and restaurants of interest as per users' requirements.
+* Company's contact information, opening hours and social media links are available on the footer of each page, so that users have such at hand and at all times just by scrolling to the bottom of the page. An online enquiry form facilitates contact even further as users do not have to navigate away from the website in order to contact the agency.
+* Book page offers users the option of preselecting their travel requirements in order for the website to display suitable packages that can be booked directly (latter feature to be implemented).
+
+###### Site Owner
+* As the site owner I am satisfied that users can easily find information about the different cities my agency offers holiday breaks to, using the intuitive website layout.
+* I am also satisfied that content is presented in a manner that is visually appealing and user friendly, allowing users to get enough information regarding each city itself, its attractions, accommodation and restaurants.
+* Location suitability of accommodation on offer in relation to each destination's main attractions and places to eat is easy to demonstrate via use of the maps provided on each city page.
+* Contact and booking facilities available are easy to use ensuring that potential customers can get through all stages of their holiday search process effortlessly and without having to leave my website. Regarding the latter, I acknowledge the good practice of social media links opening onto a new tab instead of navigating user away from my website.
+* Enquiry form allows for the collection of valuable user contact information such as their full name, email and telephone number.
+* Links of the travel agency's social media pages are easy to access as requested.
+* The price promise, highlighting the excellent value my company offers, features prominently on the book page, and is also mentioned in the about page just above the enquiry form, thus increasing prospects of potential clients continuing on with booking a holiday package directly from my website.
+
+###### Other testing
 Automation of tests was not possible on this project. Manual testing confirmed compliance with user stories and intended function of features as follows:
 * Clicked on company logo on each web page and navigated directly to the homepage as expected
 * HTML coding was fully validated by the the course prescribed [HTML validator](https://validator.w3.org/)
+* CSS coding was validated without any errors using the course prescribed [CSS validator](https://jigsaw.w3.org/css-validator/)
+
+
+
+Automation of tests was not possible on this project. Manual testing confirmed compliance with user stories and intended function of features as follows:
+* Clicked on company logo on each web page and navigated directly to the homepage as expected
+* Clicked on the "join now" button on each page and navigated directly to the membership page as expected
+* Navigation links worked as expected when clicked on each web page moving user directly to the respective web page
+* Navigation links and all buttons/button type items changed appearance when hovered over as expected
+* Active navigation links were indicated by their changed appearance as planned
+* Clicked on each of the different photos on homepage and navigated to the gallery page as expected
+* Homepage photos and gallery photos respond to different screen sizes as expected, i.e. rows of four images get progressively reduced to rows of three, two and one image depending on the screen size. At this point, i would like to draw attention to the fact that two different methods were used to achieve this result (i.e. the first by removing from the display the relevant image(s) on the homepage and the second through reducing the number of columns in the gallery page)
+* Query form on contact page:
+  * Tried to submit the form without all fields completed and verified that an error message regarding each missing field appears
+  * Tried to submit the form with an invalid email address and verified that a relevant error message appears
+  * Try to submit the form with all inputs valid and verified that form was looking to post the data ("405 Not Allowed" error page appeared as expected as form submission function was not due to be developed during this project)
+   * Clicked on "Privacy Policy" and pdf with required info opened in a new tab as expected
+   * Clicked on the "reset form" button and observed all fields clearing up
+* Clicked on each social media icon on each page and they opened correctly in a new tab
+* Successfully tested responsiveness for different screen sizes: desktop, tablet, mobile and small screen mobile (as i am using a laptop with a small screen i was not able to set up responsiveness/check such for extra-large screens). Page elements rearrange themselves according to the current browser screen width and site maintains consistency of design and information without any elements overlapping on screen
+* Page layout largely complied with original wireframe designs for different screen sizes as planned. Wireframes created for desktop, tablet, mobile and small screen mobile (as per site's responsiveness set up). See respective [wireframe images pdf](assets/docs/wireframes.pdf) (20 frames in total covering the four designs).
+* The above tests were carried out on Firefox and Chrome browsers to also verify browser compatibility (used respective dev tools i.e. responsive design mode on Firefox and toggle device toolbar/Lighthouse on Chrome, to check the responsiveness for different screen sizes)
+* Ran the Lighthouse report on Chrome, with the following results: Performance: 95, Accessibility: 98, Best practices: 87, SEO: 96. Details of Lighthouse report confirmed that any issues identified were minor and not significantly affecting overall user experience or website performance
+* Accesibility of colour combinations used was verified using the respective color tool from https://material.io/resources/color/
+* The only HTML code errors when code is being validated correspond to the iframe code copied from Google Maps. As this was directly imported code from Google and iframe element performed as expected these error messages were not addressed and code was not amended. All other elements were successfully validated by the the course prescribed [HTML validator](https://validator.w3.org/)
 * CSS coding was validated without any errors using the course prescribed [CSS validator](https://jigsaw.w3.org/css-validator/)
 
 ##### Interesting bugs or problems worth reporting
