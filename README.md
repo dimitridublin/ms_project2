@@ -102,7 +102,7 @@ Automation of tests was not possible on this project. Manual testing confirmed c
   * On form submission, a short and clear message on screen appeared as expected informing user that form was submitted and that an email was sent to their address provided (see screenshot below).
  ![enquiry forwarded to company email](assets/images/testing/enquiry_email.jpg)
  ![auto reply to user's email](assets/images/testing/enquiry_autoreply.jpg)
- ![screen grap of about page when enquiry form is submitted](assets/images/testing/enquiry_submission.jpg)
+ ![screen grap of about page when enquiry form is submitted](assets/images/testing/enquiry_submission_1.jpg)
 
 * Testing of booking form on book page:
   * Tried to submit the form without all fields completed and verified that an error message regarding each missing field appears
