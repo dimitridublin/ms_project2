@@ -146,6 +146,21 @@ p {
     justify-content: center;
 }
 
+/* -------------------------------------------------------------------------------------Rome page styling */
+#rome-main-page {
+    height: 100%;
+    min-height: 90vh;
+    /* Photo by Cristina Gottardi on Unsplash */
+    background-image: url("../images/rome/trevi_fountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* -------------------------------------------------------------------------------------footer styling */
 footer {
     clear: both;
