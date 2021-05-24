@@ -8,9 +8,9 @@
     <meta name="description"
         content="Booterstown Travel, European city breaks specialist travel agency in Dublin, Ireland">
     <meta name="keywords"
-        content="city, city breaks, holidays, Europe, explore, travel, sightseeing, restaurants, attractions, urban">
+        content="city, city breaks, holidays, Europe, explore, travel, sightseeing, restaurants, attractions, urban, athens, lisbon, rome">
     <meta name="author" content="Dimitrios Paraskevas">
-    <title>Home - Booterstown Travel</title>
+    <title>Rome - Booterstown Travel</title>
     <!--Importing Bootstrap CSS stylesheet, code copied from https://getbootstrap.com/docs/4.3/getting-started/introduction/-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -22,16 +22,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css">
     <!--Importing own custom CSS stylesheet-->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!--adding BTT logo on browser tab-->
+    <link rel="icon" href="./assets/images/btt_logo.png">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-light navbar-expand-md">
-            <!-- ΒΤT "company" logo was created using favicon.io-->
+            <!-- ΒΤT "company" logo was created using https://logomakr.com -->
             <a href="index.html">
                 <img src="assets/images/btt_logo.png" alt="booterstown travel logo"
-                    class="d-inline-block align-top mr-2" width="80" height="40" aria-hidden="true">
+                    class="d-inline-block align-top mr-2" width="50" height="50" aria-hidden="true">
             </a>
             <div class="d-none d-sm-inline mr-5">
                 <p class="navbar-text align-top my-auto">The European City Breaks Specialists</p>
@@ -41,41 +43,144 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse align-top mr-auto" id="navbar-menu">
-                <ul class="navbar-nav ms-auto mb-lg-0">
+                <ul class="navbar-nav ml-auto mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link hvr-grow-shadow active" href="index.html">Home</a>
+                        <a class="nav-link hvr-grow-shadow" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-grow-shadow" href="about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle hvr-grow-shadow" href="cities.html" id="navbar-cities"
+                        <a class="nav-link dropdown-toggle hvr-grow-shadow active" href="cities.html" id="navbar-cities"
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cities
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbar-cities">
                             <a class="dropdown-item hvr-grow-shadow" href="athens.html">Athens</a>
+                            <a class="dropdown-item hvr-grow-shadow" href="lisbon.html">Lisbon</a>
                             <a class="dropdown-item hvr-grow-shadow" href="rome.html">Rome</a>
                         </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link hvr-grow-shadow" href="book.html">Book</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link hvr-grow-shadow" href="aboutbtt.html">About BTT</a>
-                    </li>
                 </ul>
             </div>
         </nav>
-        <div class="container-fluid callout-container">
-            <div class="row">
-                <div class="col-12">
-                    <section class="mt-2 callout jumbotron text-center callout-section">
-                        <h1 class="text-uppercase jumbotron-header"> Explore the best of Europe</h1>
-                        <h2>with Booterstown Travel City Breaks!</h2>
-                        <button a href="cities.html" class="btn btn-lg btn-success mt-5 hvr-grow-shadow">Choose a
-                            City!</a>
-                        </button>
-                    </section>
+        <div class="container-fluid callout-container" id="lisbon-main-page">
+            <section class="callout jumbotron text-center callout-section mt-2 mb-2">
+                <div class="container-fluid">
+                    <div class="row d-block">
+                        <div class="col-12 d-block alert alert-warning">
+                            <h1 class="text-uppercase">Lisbon</h1>
+                            <!--city description from google.com-->
+                            <p>Lisbon is Portugal’s hilly, coastal capital city. From imposing São Jorge Castle, the
+                                view encompasses the old city’s pastel-colored buildings, Tagus Estuary and Ponte 25 de
+                                Abril suspension bridge. Nearby, the National Azulejo Museum displays 5 centuries of
+                                decorative ceramic tiles. Just outside Lisbon is a string of Atlantic beaches, from
+                                Cascais to Estoril.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    </header>
+    <main>
+        <div>
+            <h3 class="text-uppercase mt-4">At a glance</h3>
+            <p class="mt-1 ml-5 mr-5 mb-5">A holiday in <strong>Lisbon</strong> is truly a city break that has it all!
+                Travellers get to explore the city's seven hills (exploring by tram is an inexpensive and
+                truly marvellous way of doing so), numerous beaches and they get to enjoy
+                the true taste of Portuguese grilled fish, nata pastries and its "green" wine.
+                Furthermore, Booterstown Travel offers three magnificent hotel choices, personally handpicked for their
+                excellent value for money and proximity to the city's main attractions. Along with more info
+                regarding the accommodation on offer on our map <strong>below</strong>, we have selected the top-3
+                attractions and
+                restaurants to help with exploring this incredible city. <strong>Let's travel!</strong> </p>
+            <h4 class="text-uppercase mt-3">Attractions</h4>
+            <div>
+                <div class="row">
+                    <div class="col-12 col-md-4 city-image">
+                        <!-- Photo by Mark Lawson on Unsplash -->
+                        <img src="assets/images/lisbon/lisbon_cathedral.jpg" alt="Lisbon Cathedral" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-md-4 city-image">
+                        <!-- Photo by Giulia Angotti on Unsplash -->
+                        <img src="assets/images/lisbon/santa_justa_view.jpg" alt="view from Santa Justa"
+                            class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-md-4 city-image">
+                        <!-- Photo by Mathew Schwartz on Unsplash -->
+                        <img src="assets/images/lisbon/rua_augusta_arch.jpg" alt="Rua Augusta Arch" class="img-fluid" />
+                    </div>
                 </div>
             </div>
-    </header>
+            <p class="mt-4 ml-5 mr-5 mb-5">
+                Lisbon BTT city breaks always begin at the <strong>Lisbon Cathedral</strong> (left image above, mark A
+                on map below). This is not only because of the famous landmark
+                but also as the area contains the terminal for the city's emblematic <strong>trams</strong>, an easy and
+                inexpensive way to
+                enjoy all that Lisbon has to offer.
+                Other unmissable attractions include the views from the top of <strong>Santa Justa</strong> (centre
+                image above, mark B on map below)
+                as well as the beautiful <strong>Rua Augusta Arch</strong> dating back to the Roman times (right image,
+                mark C on the map).
+            </p>
+            <h4 class="text-uppercase mt-3">Accommodation</h4>
+            <div>
+                <div class="row">
+                    <div class="col-12 col-md-4 city-image">
+                        <!-- Photo by HausPhotoMedia on Unsplash -->
+                        <img src="assets/images/athens/hotel_room1.jpg" alt="hotel room photo" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-md-4 city-image">
+                        <!-- Photo by Kuldeep Swarnkaar on Unsplash -->
+                        <img src="assets/images/athens/hotel_2.jpg" alt="hotel swimming pool" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-md-4 city-image">
+                        <!-- Photo by reisetopia on Unsplash -->
+                        <img src="assets/images/athens/hotel_room3.jpg" alt="hotel room photo" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4 ml-5 mr-5 mb-5">
+                Booterstown Travel accommodation has been carefully selected for its excellent value for money,
+                proximity to most major attractions and ethical standards of operation. Whether a splash in the pool
+                under the hot Athenian sun, a comfortable and spacious room or a fully equipped leisure centre is your
+                ideal relaxation after a day's exploring, our accommodation options will have you fully covered!
+                Travellers can choose from three hotel options: <strong>the Athens Hilton (mark D on the map), Electra
+                    Palace (mark E on the map) and St George
+                    Lycabettus Hotel</strong>. (mark F on the map)
+            </p>
+            <h4 class="text-uppercase mt-3">Restaurants</h4>
+            <div>
+                <div class="row">
+                    <div class="col-12 col-md-4 city-image">
+                        <!-- Photo by Loes Klinker on Unsplash -->
+                        <img src="assets/images/athens/greek_salad.jpg" alt="greek salad" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-md-4 city-image">
+                        <!-- Photo by Dan Farrell on Unsplash -->
+                        <img src="assets/images/athens/restaurant.jpg" alt="restaurant photo" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-md-4 city-image">
+                        <!-- Photo by Melissa Walker Horn on Unsplash -->
+                        <img src="assets/images/athens/meal_3.jpg" alt="fresh produce meal" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4 ml-5 mr-5 mb-5">
+                Voted Greece's best restaurant for several years in a row, <strong>Spondi</strong> with its three
+                Michelin stars
+                is a heavenly approach to discovering the delights of Greek cuisine and it is a must visit for any
+                <strong>foodie</strong> (mark G on the map).
+                Two more inexpensive but must-visit options include <strong>Cookoovaya</strong> (mark H on the map) and
+                <strong>Agora
+                    Select</strong> (mark I on the map),
+                both conviniently located on the same street!
+            </p>
+        </div>
+
+        <div id="map"></div>
+    </main>
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4 footer-contact text-center">
@@ -124,50 +229,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <!-- adding Google Maps API-->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?libraries=localContext&v=beta&key=AIzaSyAHGI_49_F1AQAlAKm3UKULkCbZqcIFqYU">
+    </script>
+    <!-- adding Google Maps Marker Clusterer-->
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <!-- adding own js script-->
+    <script src="assets/javascript/rome.js"></script>
 </body>
 
 </html>
-
-<!--carousel code copied from https://getbootstrap.com/docs/4.3/components/carousel/ and modified accordingly
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <section class="callout jumbotron text-center callout-section mt-2 mb-2">
-        <div class="container-fluid">
-            <div class="row d-block">
-                <div class="col-12 d-none d-md-block alert alert-warning" id="city-info">
-                    <h1 class="text-uppercase" id="city-header"></h1>
-                    <p id="city-paragraph">
-                    </p>
-                </div>
-            </div>
-            <div class="row d-block">
-                <div class="col-12">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="" class="d-block w-100" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="" class="d-block w-100" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="" class="d-block w-100" alt="">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-</div> -->
