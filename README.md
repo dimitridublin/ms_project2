@@ -143,7 +143,7 @@ Automation of tests was not possible on this project. Manual testing confirmed c
 
 ##### Media
 Image credits:
-All photos taken from Unsplash.com. The photographs used are credited to alevision.co, Constantinos Kollias, Tania Mousinho, sun Ping chieh, Athens at a Glance, Sophie Dupau, HausPhotoMedia, reisetopia, Loes Klinker, Melissa Walker Horn, Dan Farrell, Vali Sachadonig, Diego García, Mark Lawson, Giulia Angotti, Mathew Schwartz, (please see in-code HTML comments for more details).
+All photos taken from Unsplash.com. The photographs used are credited to alevision.co, Constantinos Kollias, Tania Mousinho, sun Ping chieh, Athens at a Glance, Sophie Dupau, HausPhotoMedia, reisetopia, Loes Klinker, Melissa Walker Horn, Dan Farrell, Vali Sachadonig, Diego García, Mark Lawson, Giulia Angotti, Mathew Schwartz, reisetopia, Ciudad Maderas, Subfader, Syed Ahmad, Nick Fewings, David Billings, Cristina Gottardi, Ágatha Depiné, Caleb Miller, Marco Chilese, Blake Woolwine, Christopher Ott, mark champs, engin akyurt, ABHISHEK HAJARE, Krisztina Papp (please see in-code HTML, CSS and JS comments for more details).
 
 ##### Acknowledgments
 I would like to thank my mentor Akshat Garg for his useful tips and comments.
