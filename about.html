@@ -26,8 +26,8 @@
     <!--adding BTT logo on browser tab-->
     <link rel="icon" href="./assets/images/btt_logo.png">
     <!--Email JS script from: hhttps://dashboard.emailjs.com/admin/integration/browser-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
         (function () {
             emailjs.init("user_ju6XNhfQ2GvTtTiZnwhiT");
         })();
@@ -35,7 +35,7 @@
 </head>
 
 <body>
-    <header>
+    <header aria-labelledby="navbar-menu">
         <nav class="navbar navbar-light navbar-expand-md">
             <!-- ΒΤT "company" logo was created using https://logomakr.com -->
             <a href="index.html">
@@ -73,7 +73,7 @@
                 </ul>
             </div>
         </nav>
-        <div class="container-fluid callout-container" id="about-container">
+        <div class="container-fluid callout-container">
             <section class="callout jumbotron text-center callout-section mt-2 mb-2">
                 <div class="container-fluid">
                     <div class="row d-block">

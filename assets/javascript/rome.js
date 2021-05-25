@@ -1,6 +1,5 @@
     // City info, photographs and map    
-    let htmlRome = `<div class="details-container">
-            <div>
+    let htmlRome = `<div>
                 <h3 class="text-uppercase mt-4">At a glance</h3>
                 <p class="mt-1 ml-5 mr-5 mb-5">What could one say about <strong>Rome</strong>, the "Eternal City", that
                     has not been said already?
