@@ -121,11 +121,15 @@ Automation of tests was not possible on this project. Manual testing confirmed c
 * The above tests were carried out on Firefox and Chrome browsers to also verify browser compatibility (used respective dev tools i.e. responsive design mode on Firefox and toggle device toolbar/Lighthouse on Chrome, to check the responsiveness for different screen sizes).
 * Ran the Lighthouse report on Chrome, with the following results: Performance: 90, Accessibility: 92, Best practices: 87, SEO: 100. Details of Lighthouse report confirmed that any issues identified were minor and not significantly affecting overall user experience or website performance.
 * HTML code was successfully validated by the the course prescribed [HTML validator](https://validator.w3.org/).
-* CSS coding was validated without any errors using the course prescribed [CSS validator](https://jigsaw.w3.org/css-validator/).
+* CSS coding was validated by direct input without any errors using the course prescribed [CSS validator](https://jigsaw.w3.org/css-validator/). 
 * JavaScript code passed through [jshint.com](https://jshint.com/) with no major issues.
 
+![screen grap of HTML validation result](assets/images/testing/html_validation.jpg)
+![screen grap of CSS validation result](assets/images/testing/css_validation.jpg)
+
 ##### Interesting bugs or problems worth reporting
-* 
+* No bugs were found in the final version for submission
+* No problems worth reporting throughout the development process were found
 
 #### Deployment
 * Logged into my github account and in the [project repository page](https://github.com/dimitridublin/ms_project2), clicked on "settings" (under the repository name) and scrolled down to "GitHub Pages"
