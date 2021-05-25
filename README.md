@@ -54,7 +54,6 @@ As the site owner I want to get users to book a city break from this site. For t
 * Google Maps JavaScript API was used to set up the cities' maps
 * [Email JS](https://www.emailjs.com/) was used to set up the emailing of site owner and auto-response functionalities when user submits an enquiry via the website
 * [Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/index.php) was used to create the image of website on different screen sizes on README
-* [Material Design's colour tool](https://material.io/resources/color/) was used to assess the accesibility of colour combinations used
 * [Github](https://github.com/) and [Gitpod](https://gitpod.io/) were used for website development and version storage
 * [Offical W3C HTML validator](https://validator.w3.org/)
 * [Jigsaw official CSS validator](https://jigsaw.w3.org/css-validator/)
