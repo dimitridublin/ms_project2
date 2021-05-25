@@ -25,7 +25,7 @@ function initMap() {
 }
 const locations = [{
         lat: 37.972076658931186,
-        lng: 23.725033019551365, //Athens Acropolis
+        lng: 23.725033019551365 //Athens Acropolis
     },
     {
         lat: 37.97573027524435,
