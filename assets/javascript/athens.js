@@ -9,7 +9,7 @@ function initMap() {
             lng: 23.725033019551365 //Athens Acropolis
         },
     });
-    // Create an array of alphabetical characters used to label the markers.
+    // Create an array of alphabetical characters to label the markers
     const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     const markers = locations.map((location, i) => {
@@ -18,14 +18,14 @@ function initMap() {
             label: labels[i % labels.length],
         });
     });
-    // Add a marker clusterer to manage the markers.
+    // Add a marker clusterer to manage the markers
     new MarkerClusterer(map, markers, {
         imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
 }
 const locations = [{
         lat: 37.972076658931186,
-        lng: 23.725033019551365 //Athens Acropolis
+        lng: 23.725033019551365, //Athens Acropolis
     },
     {
         lat: 37.97573027524435,

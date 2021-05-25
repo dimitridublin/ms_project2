@@ -58,7 +58,7 @@
                             <img src="assets/images/rome/rome_hotel_2.jpg" alt="hotel swimming pool"
                                 class="img-fluid" />
                         </div>
-                        <div class="col-12 col-md-4 city-image">
+                        <div class="col-12 d-none d-md-inline col-md-4 city-image">
                             <!-- Photo by mark champs on Unsplash -->
                             <img src="assets/images/rome/rome_hotel_3.jpg" alt="hotel room photo" class="img-fluid" />
                         </div>
@@ -86,7 +86,7 @@
                             <!-- Photo by ABHISHEK HAJARE -->
                             <img src="assets/images/rome/pasta.jpg" alt="pasta photo" class="img-fluid" />
                         </div>
-                        <div class="col-12 col-md-4 city-image">
+                        <div class="col-12 d-none d-md-inline col-md-4 city-image">
                             <!-- Photo by Krisztina Papp on Unsplash -->
                             <img src="assets/images/rome/rome_restaurant.jpg" alt="photo of a restaurant"
                                 class="img-fluid" />
