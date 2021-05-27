@@ -11,7 +11,7 @@ window.onload = bookFunction();
 function formSubmit(event) {
     event.preventDefault();
     let htmlBook = `<div class="col-12 d-block alert alert-warning mt-5">
-    <h1 class="text-center">Online Booking System currently Under Construction</h1>
+    <h1 class="text-uppercase text-center">Online Booking System currently Under Construction</h1>
     <p class="text-center">Please contact our office by telephone: 01-6070808 or email: hello@booterstowntravel.ie</p></div>`
     $("section").append(htmlBook);
 };
