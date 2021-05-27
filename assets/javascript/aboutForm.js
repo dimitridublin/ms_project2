@@ -5,7 +5,7 @@ function formSubmitted() {
     buttonSubmitted.textContent = "Enquiry form submitted, an email has been sent to the address provided";
 };
 
-// about page enquiry form submission script, code written using as example the CI "Sending Emails Using EmailJS" tutorial
+// about page enquiry form submission script, code written using as example the CI "Sending Emails Using EmailJS" course tutorial
 function respondMail(aboutForm) {
     emailjs.send("service_schssol", "template_hjzgsre", {
                 "fname": aboutForm.fname.value,
