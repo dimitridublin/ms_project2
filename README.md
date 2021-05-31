@@ -121,7 +121,7 @@ Automation of tests was not possible on this project. Manual testing confirmed c
 * Navigation menu correctly reduces to hamburger style and company slogan disappears on small screen sizes as expected.
 * Website layout largely complies with original wireframe designs for different screen sizes as planned. Wireframes created for mobile as well as for desktop and tablet/iPad. See respective [wireframe images pdf](assets/docs/msp2_wireframes.pdf) (10 frames in total).
 * The above tests were carried out on Firefox and Chrome browsers to also verify browser compatibility (used respective dev tools i.e. responsive design mode on Firefox and toggle device toolbar/Lighthouse on Chrome, to check the responsiveness for different screen sizes).
-* Ran the Lighthouse report on Chrome, with the following results: Performance: 78 (potentially due to issues with home Wi-Fi), Accessibility: 94, Best practices: 87, SEO: 100. Details of Lighthouse report confirmed that any issues identified were minor and not significantly affecting overall user experience or website performance.
+* Ran the Lighthouse report on Chrome, with the following results: Performance: 82 (potentially due to issues with home Wi-Fi), Accessibility: 94, Best practices: 87, SEO: 100. Details of Lighthouse report confirmed that any issues identified were minor and not significantly affecting overall user experience or website performance.
 
 ![lighthouse report](assets/images/testing/lighthouse_report.jpg)
 
