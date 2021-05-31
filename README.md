@@ -30,7 +30,7 @@ As the site owner I want to get users to book a city break from this site. For t
 * Users have two options to access the actual city information pages, either via the navigation menu leading directly to their city of choice or by clicking onto the "choose a city" button available on the homepage leading to a stylish "cities" page for users to further select their destination of choice.
 * Once city of choice has been determined, users land on the respective designated city page. There, and apart from a summary about the city on top of the page, users can read more about the destination's attractions, restaurants as well as the type of accommodation available with the company's travel packages. A number of enticing photos, directly relevant to their destination of choice, further enhances the user's positive emotional response whereas the interactive Google map below (linked to the page via the Maps Javascript API) allows users to evaluate suitability of accommodation location on offer as described in the User Stories section above. In addition, the map provided offers an insight on other places of interest in and around the city of interest which further enhances the user experience.
 * A link to the booking page was included in the navigation section so that users are only one click away from the booking page at all times (to the satisfaction of the site owner). 
-* On top of booking page itself, and as required by the site owner, the company price promise displays prominently and unambiguously to reassure users that irrespective of the package they choose they can have peace of mind the deal they are getting is the best available on the market. In addition, and on visiting the Book page users are notified by alert message on screen of a current promotion (function scheduled to turn off automatically once promotion date passes).
+* On top of booking page itself, and as required by the site owner, the company price promise displays prominently and unambiguously to reassure users that irrespective of the package they choose they can have peace of mind the deal they are getting is the best available on the market.
 * Below the company's price promise users are presented with a stylish booking menu allowing preselection of their travel requirements. This enhances user experience as at the booking stage the website will display only those holiday options suitable for them. This functionality was not further developed (i.e. on click, "book now" button hides the form and generates a message explaining that functionality is "under construction", prompting user to phone or email instead) as a) it was outside the scope of this project, and b) it required a database of actual accommodation packages which BTT as an imaginary company does not have.
 * Similar to the enquiry form, book page styling ensures that the online booking facility does not take up the entire width of the page which would make it too big and result in a less positive user experience.
 * Footer provides a concise guide to the establishment's opening hours, location, public transport info, social media links and contact details. As such, user experience is further enhanced as their respective requirements are easily met from any web page.
@@ -109,8 +109,6 @@ Automation of tests was not possible on this project. Manual testing confirmed c
 
 ![screen grap of about page when enquiry form is submitted](assets/images/testing/enquiry_submission.jpg)
 
-
-* When Book page loads, and as long as current date is before the end of the company's promotional period on Aug 20th, an alert window correctly appears informing user of company's additional 20% off on travel packages. When code was changed for promotion to expire on a date before current date the alert message correctly did not display on screen at page load.
 * Testing of booking form on Book page:
   * Tried to submit the form without all fields completed and verified that an error message regarding each missing field appears
   * Tried to submit the form with all inputs valid and verified that on submission form itself correctly hides and function generates a message that the online booking system is under construction, prompting user to contact company by phone or email instead (as form submission function was not due to be developed during this project, see screenshot below).
@@ -135,11 +133,12 @@ Automation of tests was not possible on this project. Manual testing confirmed c
 * When setting up the map rendering, the callback function in the default Google script source (i.e. the "&callback=initMap" part after the API Key) did not work and map was not being rendered. As a result, and following a tutor's advice, callback was removed from the script source and calling of function initMap was coded into the separate js file connected to the Google API instead.
 
 #### Deployment
-* Logged into my github account and in the [project repository page](https://github.com/dimitridublin/ms_project2), clicked on "settings" (under the repository name) and scrolled down to "GitHub Pages"
+* Logged into my GitHub account and in the [project repository page](https://github.com/dimitridublin/ms_project2), clicked on "settings" (under the repository name) and scrolled down to "GitHub Pages"
 * On the "GitHub Pages" section there was a message saying "Pages settings now has its own dedicated tab! Check it out here!". I clicked on it as required and navigated to GitHub's new dedicated pages settings tab
 * On the pages settings tab and under "Source" I changed the default "none" to "master" so that my site's deployed code feeds from the my project's master branch 
 * I clicked on the "Save" button and a message appeared saying "Your site is ready to be published" along with the respective link
 * My site was published at https://dimitridublin.github.io/ms_project2/
+* There are various ways of cloning this repository. Please see the respective GitHub doc at: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository
 
 #### Credits
 ##### Content
