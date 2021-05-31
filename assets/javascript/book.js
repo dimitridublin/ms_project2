@@ -1,12 +1,3 @@
-function bookFunction() {
-    if (new Date() < new Date("2021-08-21")) {
-        alert("Booterstown Travel Summer Offer: All packages are an ADDITIONAL 20% off! Offer valid till August 20th.");
-    } else {
-        return;
-    }
-}
-window.onload = bookFunction();
-
 // Function to handle form submit in absence of functionality to provide user with available packages (feature to be implemented)
 function formSubmit(event) {
     //prevent default action on form submission
