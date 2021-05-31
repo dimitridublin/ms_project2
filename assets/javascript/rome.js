@@ -1,28 +1,4 @@
-    /* Rendering the google map with markers, code below from 
-    https://developers.google.com/maps/documentation/javascript/marker-clustering#maps_marker_clustering-javascript 
-    and adapted accordingly for this project. */
-    function initMap() {
-        const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 13,
-            center: {
-                lat: 41.903917579172756,
-                lng: 12.454277404785715 // Sistine Chapel, Vatican City
-            },
-        });
-        // Create an array of alphabetical characters used to label the markers.
-        const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-        const markers = locations.map((location, i) => {
-            return new google.maps.Marker({
-                position: location,
-                label: labels[i % labels.length],
-            });
-        });
-        // Add a marker clusterer to manage the markers.
-        new MarkerClusterer(map, markers, {
-            imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-        });
-    }
+    // rome city markers to populate map
     const locations = [{
             lat: 41.903917579172756,
             lng: 12.454277404785715 // Sistine Chapel, Vatican City
@@ -61,4 +37,11 @@
         },
     ];
 
-    initMap();
+    const sights = ["Sistine Chapel, Vatican City", "St. Marco Square", "Colloseum", "The Westin Excelsior",
+        "Relais Fontana di Trevi Hotel", "Hotel Eliseo", "Del Fico restaurant", "Baccano Brasserie", "Osteria Barberini"
+    ];
+
+    const center = {
+        lat: 41.903917579172756,
+        lng: 12.454277404785715 // Sistine Chapel, Vatican City
+    };

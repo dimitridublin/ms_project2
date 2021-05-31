@@ -1,28 +1,4 @@
-/* Rendering the google map with markers, code below from 
-https://developers.google.com/maps/documentation/javascript/marker-clustering#maps_marker_clustering-javascript 
-and adapted accordingly for this project. */
-function initMap() {
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 14,
-        center: {
-            lat: 37.972076658931186,
-            lng: 23.725033019551365 //Athens Acropolis
-        },
-    });
-    // Create an array of alphabetical characters to label the markers
-    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    const markers = locations.map((location, i) => {
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length],
-        });
-    });
-    // Add a marker clusterer to manage the markers
-    new MarkerClusterer(map, markers, {
-        imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-    });
-}
+// athens city markers to populate map
 const locations = [{
         lat: 37.972076658931186,
         lng: 23.725033019551365 //Athens Acropolis
@@ -61,4 +37,11 @@ const locations = [{
     },
 ];
 
-initMap();
+const sights = ["Athens Acropolis", "Syntagma (Constitution) Square", "Lycabettus Hill", "Hilton Athens",
+    "St George Lycabettus Hotel", "Electra Palace Hotel", "Spondi Restaurant", "Cookoovaya Restaurant", "Agora Select Restaurant"
+];
+
+const center = {
+    lat: 37.972076658931186,
+    lng: 23.725033019551365 //Athens Acropolis
+};

@@ -1,28 +1,4 @@
-/* Rendering the google map with markers, code below from 
-https://developers.google.com/maps/documentation/javascript/marker-clustering#maps_marker_clustering-javascript 
-and adapted accordingly for this project. */
-function initMap() {
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 16,
-        center: {
-            lat: 38.710226313438355,
-            lng: -9.132954553145687 //Lisbon Cathedral
-        },
-    });
-    // Create an array of alphabetical characters used to label the markers.
-    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    const markers = locations.map((location, i) => {
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length],
-        });
-    });
-    // Add a marker clusterer to manage the markers.
-    new MarkerClusterer(map, markers, {
-        imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-    });
-}
+// lisbon city markers to populate map
 const locations = [{
         lat: 38.710226313438355,
         lng: -9.132954553145687 //Lisbon Cathedral
@@ -61,4 +37,11 @@ const locations = [{
     },
 ];
 
-initMap();
+const sights = ["Lisbon Cathedral", "Santa Justa Lift", "Rua Augusta Arch", "Chiado Apartments and Suites",
+    "Eurostars Museum Hotel", "Altis Avenida Hotel", "Museu de Cerveja (The Beer Museum)", "Eating Bear (Portuguese fusion tapas)", "Belcanto haute cuisine"
+];
+
+const center = {
+    lat: 38.710226313438355,
+    lng: -9.132954553145687 //Lisbon Cathedral
+};
