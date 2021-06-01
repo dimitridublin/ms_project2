@@ -51,61 +51,25 @@ p {
 }
 
 /* -------------------------------------------------------------------------------------cities page styling */
-.athens-container {
-    height: 100%;
-    min-height: 90vh;
+#athens-container {
     /* image by Tania Mousinho on Unsplash */
     background-image: url("../images/athens/acropolis_close_unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.lisbon-container {
-    height: 100%;
-    min-height: 90vh;
+#lisbon-container {
     /* image by Vali Sachadonig on Unsplash */
     background-image: url("../images/lisbon/lisbon_tram_unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.rome-container {
-    height: 100%;
-    min-height: 90vh;
+#rome-container {
     /* image by David Billings on Unsplash  */
     background-image: url("../images/rome/colloseum_unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* -------------------------------------------------------------------------------------Athens page styling */
 #athens-main-page {
-    height: 100%;
-    min-height: 90vh;
     /* Photo by Athens at a Glance on Unsplash */
     background-image: url("../images/athens/zeus_temple.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .city-image {
@@ -128,32 +92,14 @@ p {
 
 /* -------------------------------------------------------------------------------------Lisbon page styling */
 #lisbon-main-page {
-    height: 100%;
-    min-height: 90vh;
     /* Photo by Diego García on Unsplash */
     background-image: url("../images/lisbon/lisbon_doors.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* -------------------------------------------------------------------------------------Rome page styling */
 #rome-main-page {
-    height: 100%;
-    min-height: 90vh;
     /* Photo by Cristina Gottardi on Unsplash */
     background-image: url("../images/rome/trevi_fountain.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* -------------------------------------------------------------------------------------footer styling */
